@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+
+
+}
+.attribution { font-size: 11px;
+     text-align: center; 
+display: block;
+color: white;
+margin-top: 1rem;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'inter';
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    
+    
+    min-height: 100vh;
+
+
+}
+.main{
+
+    background-color: hsl(0, 0%, 14%);
+    padding: 24px;
+width: 100%;
+max-width: 400px;
+border-radius: 10px;
+
+}
+
+.main h1{
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+text-align: center;
+margin-bottom: 1rem;
+}
+.avatar{
+    border-radius: 50%;
+width: 80px;
+height: 80px;
+display: block; 
+margin-inline: auto;
+margin-bottom: 1.25rem;
+}
+.main span{
+    font-size: 1rem;
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    display: block;
+    margin-top: 1rem 0 1rem;
+}
+.main p{
+    
+    color: white;
+   text-align: center;
+    
+}
+.main ul{
+    margin-top: 2rem;
+    display: grid;
+    gap: 1rem;
+    color: white;
+    list-style-type: none;
+    
+
+}
+.main ul li button{
+    font-size: 1rem;
+color: white;
+font-weight: bold;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    background-color:hsl(0, 0%, 22%) ;
+    cursor: pointer;
+border-radius: 10px;
+transition: all 0.15s ease-in-out;
+
+
+}
+.main ul li button:hover{
+background-color:hsl(75, 94%, 57%) ;
+color: hsl(0, 0%, 8%);
+
+}
+
+#insta{
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
